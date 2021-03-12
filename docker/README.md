@@ -1,5 +1,15 @@
 # Docker Local Environment
 
+- [Prerequisities](#prerequisities)
+- [Docker Image](#docker-image)
+- [Docker Compose](#docker-compose)
+  - [Zookeeper Configuration](#zookeeper-configuration)
+    - [Zookeeper Environment Variables](#zookeeper-environment-variables)
+  - [Kafka Configuration](#kafka-configuration)
+    - [Kafka Broker Environment Variables](#kafka-broker-environment-variables)
+  - [Validate Environment](#validate-environment)
+- [Kafdrop](#kafdrop)
+
 ## Prerequisities
 
 In order to run this environment, you'll need Docker installed and Kafka's CLI tools.
@@ -87,7 +97,7 @@ The containers only expose the following ports:
 - `KAFKA_HEAP_OPTS`: Kafka's Java Heap size.
 - `KAFKA_CFG_BROKER_ID`: Kafka's broker custom id.
 
-#### Validate Environment
+### Validate Environment
 
 - Confirm that the containers are up and running:
 
