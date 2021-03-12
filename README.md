@@ -12,6 +12,8 @@ This project provides the means to execute `Kafka` in a distributed architecture
 
 In the `docker` folder, it's available the installation and configuration of a [Containerised Kafka](./docker/README.md) environment to run locally.
 
+In the `docker/demo` [folder](./docker/demo/README.md), it's available instructions to demonstrate how `Kafka` preserves message ordering.
+
 ## Architecture
 
 ![Local Environent](./img/local-architecture.png)
