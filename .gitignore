@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+# Crash log files
+crash.log
+
+#Idea Folder
+.idea/
+
