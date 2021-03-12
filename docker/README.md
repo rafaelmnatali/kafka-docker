@@ -31,7 +31,7 @@ It was decided to use the [Bitnami](https://bitnami.com/stack/kafka/containers) 
 
 ## Docker Compose
 
-A [docker-compose file](https://docs.docker.com/compose/compose-file/) is provided [here](./build/docker-compose.yml) to spin ZooKeeper in [replicated mode](https://zookeeper.apache.org/doc/current/zookeeperStarted.html#sc_RunningReplicatedZooKeeper) and a 3 node [Kafka Broker cluster](https://kafka.apache.org/081/documentation.html#introduction).
+A [docker-compose file](https://docs.docker.com/compose/compose-file/) is provided [here](./build/docker-compose.yml) to create the local development environment.
 
 To spin up:
 
